@@ -36,28 +36,41 @@
 			</div>
 		</div>
 		<div class="site-branding container">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<!--h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1-->
+			<div class="row pt-md-3">
+				<div class="col-6">
+					<?php the_custom_logo(); ?>
+				</div>
+				<div class="col-6">
+					<nav class="my-2 my-md-0 mr-md-3">
+						<a class="p-2 text-dark" href="#">Assessoria Financeira</a>
+						<a class="p-2 text-dark" href="#">Soluções</a>
+						<a class="p-2 text-dark" href="#">Expertise</a>
+						<a class="p-2 text-dark" href="#">Contato</a>
+      				</nav>
+				</div>
 				<?php
-			else :
+				
+				// if ( is_front_page() && is_home() ) :
+					?>
+					<!--h1 class="site-title"><a href="<?php //echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php //bloginfo( 'name' ); ?></a></h1-->
+					<?php
+				// else :
+					?>
+					<!-- p class="site-title"><a href="<?php //echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php //bloginfo( 'name' ); ?></a></p -->
+					<?php
+				// endif;
+				// $ava_consulting_description = get_bloginfo( 'description', 'display' );
+				// if ( $ava_consulting_description || is_customize_preview() ) :
+					?>
+					<!-- <p class="site-description"><?php //echo $ava_consulting_description; /* WPCS: xss ok. */ ?></p> -->
+				<?php 
+					// endif; 
 				?>
-				<!--p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p-->
-				<?php
-			endif;
-			// $ava_consulting_description = get_bloginfo( 'description', 'display' );
-			if ( $ava_consulting_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $ava_consulting_description; /* WPCS: xss ok. */ ?></p>
-			<?php 
-				endif; 
-			?>
+			</div>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<!--button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'ava-consulting' ); ?></button-->
+			<!--button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'ava-consulting' ); ?></button--	>
 			<?php
 			// wp_nav_menu( array(
 			// 	'theme_location' => 'menu-1',
