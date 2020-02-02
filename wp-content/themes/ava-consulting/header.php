@@ -41,7 +41,7 @@
 					<?php the_custom_logo(); ?>
 				</div>
 				<div class="col-6">
-					<nav class="my-2 my-md-0 mr-md-3">
+					<nav id="site-navigation" class="navbar main-navigation navbar-expand-lg my-2 my-md-0 mr-md-3">
 						<a class="p-2 text-dark" href="#">Assessoria Financeira</a>
 						<a class="p-2 text-dark" href="#">Soluções</a>
 						<a class="p-2 text-dark" href="#">Expertise</a>
@@ -70,7 +70,7 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<!--button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'ava-consulting' ); ?></button--	>
+			<!--button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'ava-consulting' ); ?></button-->
 			<?php
 			// wp_nav_menu( array(
 			// 	'theme_location' => 'menu-1',
