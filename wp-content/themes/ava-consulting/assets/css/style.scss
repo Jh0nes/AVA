@@ -1,5 +1,5 @@
 /*!
-Theme Name: ava-consultion
+Theme Name: ava-consulting
 Theme URI: http://ava.com/
 Author: Jose Vitor Rodrigues
 Author URI: http://underscores.me/
@@ -27,3 +27,44 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 // Bootstrap Styles
 @import './bootstrap/bootstrap';
+
+// AVA theme Styling
+
+div.shade {
+    position: absolute;
+    // background-color: red;
+    top: 8px;
+    left: 5px;
+    width: 525px;
+    height: 508px;
+    z-index: 1;
+}
+
+img.shaded {
+    position: relative;
+    z-index: 2;
+}
+
+.customer-logo {
+    width: 25%;
+}
+
+.list-group-item {
+    border: none;
+    list-style: none;
+}
+
+.list-group-item::before {
+    content: "+";
+    width: 20ex;
+    height: 20ex;
+    padding-top:0.3em;
+    padding-right:0.5em;
+    padding-bottom:0.3em;
+    padding-left:0.5em;
+    color: $primary;
+    background-color: $info;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
