@@ -35,8 +35,8 @@ div.shade {
     // background-color: red;
     top: 8px;
     left: 5px;
-    width: 525px;
-    height: 508px;
+    width: 93%;
+    height: 100%;
     z-index: 1;
 }
 
@@ -47,6 +47,10 @@ img.shaded {
 
 .customer-logo {
     width: 25%;
+}
+
+.svg-icon {
+    width: min-content;
 }
 
 .list-group-item {
@@ -67,4 +71,8 @@ img.shaded {
     margin-right: 20px;
     margin-bottom: 20px;
     font-weight: bold;
+}
+
+.bg-dark-gradient {
+    background: linear-gradient(180deg, #E0E0E0 -11.78%, #FFFFFF 75.23%);
 }

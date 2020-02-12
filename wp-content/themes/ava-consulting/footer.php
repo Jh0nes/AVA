@@ -13,7 +13,7 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer">
+	<footer id="colophon" class="site-footer my-5">
 
 	<div class="site-branding container">
 		<div class="row">
@@ -31,7 +31,7 @@
 			</div>
 			<div class="col-2">
 				<h6>Contato</h6>
-				<small>Rua, Numero, Bairoo, Cidade, CEP</small>
+				<small>Rua, Numero, Bairro, Cidade, CEP</small>
 			</div>
 		</div>
 	</div>
