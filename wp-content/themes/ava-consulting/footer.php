@@ -24,7 +24,7 @@
 					<h6>Fale Conosco</h6>
 					<a href="mailto:contato@ava.com.br">contato@ava.com.br</a>
 				</div>
-				<div class="col-2">
+				<div id="contato" class="col-2">
 					<h6>Contato</h6>
 					<small>+55 31.3081-3864</small>
 					<small>+55 31.3081-3864</small>

@@ -17,9 +17,9 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main container">
-			<div class="row  my-5">
+			<div id="assessoria" class="row  my-5">
 				<div class="col-xl-6 col-lg-6 col-12">
-					<h2>Consultoria empresarial com resultados reais</h2>
+					<h2 class="heading-font">Consultoria empresarial com resultados reais</h2>
 					<h5>Fornecemos uma sinergia exclusiva de ferramentas de gerenciamento de risco financeiro para capacitar sua tomada de decisão nesses tempos difíceis.</h5>
 					<button type="button" class="btn btn-primary mt-3">Entre em contato</button>
 				</div>
@@ -30,7 +30,7 @@ get_header();
 			</div>
 			<div class="row bg-info py-4 px-2 my-3">
 				<div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
-					<h3>Alguns de nossos parceiros</h3>
+					<h3 class="heading-font">Alguns de nossos parceiros</h3>
 				</div>
 				<div class="col-12 col-lg-6 d-lg-flex align-items-center justify-content-between">
 					<img src="wp-content/themes/ava-consulting/assets/img/raw/samarco-logo.svg" class="img-fluid customer-logo d-block mx-auto mt-4" alt="Samarco">
@@ -38,13 +38,13 @@ get_header();
 					<img src="wp-content/themes/ava-consulting/assets/img/raw/cemig-logo.svg" class="img-fluid customer-logo  d-block mx-auto mt-4" alt="Business Charts">
 				</div>
 			</div>
-			<div class="row">
+			<div id="solucoes" class="row">
 				<div class="col-6">
 					<img class="img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/men-chart.svg" alt="AVA Consulting">
 				</div>
 				<div class="col-6 pt-5 pl-5">
 					<h6>Encontre a solução ideal para o seu negócio</h6>
-					<h4>Nossas Especialidades</h4>
+					<h4 class="heading-font">Nossas Especialidades</h4>
 					<ul id="list-especialidades" class="list-group">
 						<li class="list-group-item">Laudo de Valorização (Valuation)</li>
 						<li class="list-group-item">1.2 Fusões e Aquisições (M&A)</li>
@@ -58,12 +58,12 @@ get_header();
 				</div>
 			</div>
 
-			<div class="row my-5 py-5 bg-dark-gradient">
+			<div id="expertise" class="row my-5 py-5 bg-dark-gradient">
 				<div class="col-6 p-5">
-					<h1>Expertise</h1>
+					<h1 class="heading-font">Expertise</h1>
 					<h6>Você pode agendar uma reunião com um de nossos consultores.</h6>
 					<img class="svg-icon my-5 img-fluid customer-logo" src="wp-content/themes/ava-consulting/assets/img/raw/calendar-icon.svg" alt="Agendar Reunião - Consultoria Financeira">
-					<h1>Marcar uma reunião</h1>
+					<h1 class="heading-font">Marcar uma reunião</h1>
 					<h6>Agende uma reunião com o especialista para conhecer melhor sobre avaliação financeira</h6>
 					<button type="button" class="btn btn-primary mt-3">Agendar Agora</button>
 				</div>
@@ -75,7 +75,7 @@ get_header();
 			
 			<div class="row my-5 py-2">
 				<div class="col-12">
-					<h3>Quer apprender mais sobre gestão empresarial</h3>
+					<h3 class="heading-font">Quer apprender mais sobre gestão empresarial</h3>
 					<h6>Acesse nosso blog. lá você vai encontrar conteúdo sobre avaliação financeira.</h6>
 				</div>
 				<div class="col-3">

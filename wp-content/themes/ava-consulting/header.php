@@ -27,9 +27,6 @@
 	<header id="masthead" class="site-header">
 		<div class="language-bar container-fluid">
 			<div class="row justify-content-end bg-secondary">
-				<div class="col-1">
-					<a href="/blog">Blog</a>
-				</div>
 				<div class="col-2">
 					Idioma: Portugues
 				</div>
@@ -42,10 +39,11 @@
 				</div>
 				<div class="col-6">
 					<nav id="site-navigation" class="navbar main-navigation navbar-expand-lg my-2 my-md-0 mr-md-3">
-						<a class="p-2 text-dark" href="#">Assessoria Financeira</a>
-						<a class="p-2 text-dark" href="#">Soluções</a>
-						<a class="p-2 text-dark" href="#">Expertise</a>
-						<a class="p-2 text-dark" href="#">Contato</a>
+						<a class="p-2 text-dark" href="#assessoria">Assessoria Financeira</a>
+						<a class="p-2 text-dark" href="#solucoes">Soluções</a>
+						<a class="p-2 text-dark" href="#expertise">Expertise</a>
+						<a class="p-2 text-dark" href="#contato">Contato</a>
+						<a class="p-2 text-dark" href="#contato">Blog</a>
       				</nav>
 				</div>
 			</div>
