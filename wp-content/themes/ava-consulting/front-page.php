@@ -27,7 +27,7 @@ get_header();
 					<img class="shade-left img-fluid" src="wp-content/themes/ava-consulting/assets/img/business-charts-data-document.png" alt="Business Charts">
 				</div>
 			</div>
-			<div class="row bg-info py-4 px-2 my-3 text-center">
+			<div class="d-none row bg-info py-4 px-2 my-3 text-center">
 				<div class="col-12 col-lg-6">
 					<h2 class="heading-font mt-3">Alguns de nossos parceiros</h3>
 				</div>
@@ -42,18 +42,17 @@ get_header();
 					<img class="img-fluid" src="wp-content/themes/ava-consulting/assets/img/men-chart.svg" alt="AVA Consulting">
 				</div>
 				<div class="col-6 pt-5 pl-5">
-					<h6>Encontre a solução ideal para o seu negócio</h6>
 					<h4 class="heading-font">Nossas Especialidades</h4>
 					<ul id="list-especialidades" class="list-group">
-						<li class="list-group-item">Laudo de Valorização (Valuation)</li>
-						<li class="list-group-item">1.2 Fusões e Aquisições (M&A)</li>
-						<li class="list-group-item">Alocação do Preço de Compra - Laudo PPA (Purchase Price Allocation)</li>
-						<li class="list-group-item">Plano de Negócio (Business Plan)</li>
-						<li class="list-group-item">Modelagem de Risco Econômico-Financeiro</li>
+						<li class="list-group-item">Laudo de Valoração <i>(Valuation)</i></li>
+						<li class="list-group-item">Fusões e Aquisições <i>(M&A)</i></li>
+						<li class="list-group-item">Laudo de Alocação do Preço de Compra / <i>Purchase Price Allocation (PPA)</i></li>
+						<li class="list-group-item">Plano de Negócio <i>(Business Plan)</i></li>
+						<li class="list-group-item">Analise de Risco <i>(Value at Risk, Cash Flow at Risk)</i></li>
 						<li class="list-group-item">Captação de Recursos</li>
 						<li class="list-group-item">Planejamento e Gestão</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt-3">Saiba Mais</button>
+					<!-- <button type="button" class="btn btn-primary mt-3">Saiba Mais</button> -->
 				</div>
 			</div>
 
