@@ -23,9 +23,8 @@ get_header();
 					<h5>Fornecemos uma sinergia exclusiva de ferramentas de gerenciamento de risco financeiro para capacitar sua tomada de decisão nesses tempos difíceis.</h5>
 					<button type="button" class="btn btn-primary mt-3">Entre em contato</button>
 				</div>
-				<div class="col-lg-6 col-12 d-none d-lg-block">
-					<div class="shade bg-info"></div>
-					<img class="shaded img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/business-charts-data-document.png" alt="Business Charts">
+				<div class="d-flex justify-content-center align-items-center col-lg-6 col-12 d-none d-lg-block">
+					<img class="shade-left img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/business-charts-data-document.png" alt="Business Charts">
 				</div>
 			</div>
 			<div class="row bg-info py-4 px-2 my-3">
@@ -68,8 +67,7 @@ get_header();
 					<button type="button" class="btn btn-primary mt-3">Agendar Agora</button>
 				</div>
 				<div class="col-6">
-					<div class="shade bg-info"></div>
-					<img class="shaded img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/contract-signing.png" alt="Business Charts">
+					<img class="shade-right img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/contract-signing.png" alt="Business Charts">
 				</div>
 			</div>
 			
@@ -79,20 +77,16 @@ get_header();
 					<h6>Acesse nosso blog. lá você vai encontrar conteúdo sobre avaliação financeira.</h6>
 				</div>
 				<div class="col-3">
-					<div class="shade bg-info"></div>
-					<img class="shaded img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/blog-post-image.png" alt="Business Charts">
+					<img class="shade-left img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/blog-post-image.png" alt="Business Charts">
 				</div>
 				<div class="col-3">
-					<div class="shade bg-info"></div>
-					<img class="shaded img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/blog-post-image.png" alt="Business Charts">
+					<img class="shade-left img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/blog-post-image.png" alt="Business Charts">
 				</div>
 				<div class="col-3">
-					<div class="shade bg-info"></div>
-					<img class="shaded img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/blog-post-image.png" alt="Business Charts">
+					<img class="shade-left img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/blog-post-image.png" alt="Business Charts">
 				</div>
 				<div class="col-3">
-					<div class="shade bg-info"></div>
-					<img class="shaded img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/blog-post-image.png" alt="Business Charts">
+					<img class="shade-left img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/blog-post-image.png" alt="Business Charts">
 				</div>				
 			</div>
 			

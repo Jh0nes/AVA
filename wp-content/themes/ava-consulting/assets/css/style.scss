@@ -30,19 +30,16 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 // AVA theme Styling
 
-div.shade {
-    position: absolute;
-    // background-color: red;
-    top: 8px;
-    left: 5px;
-    width: 93%;
-    height: 100%;
-    z-index: 1;
+img.shade-left {
+    -webkit-box-shadow: -10px 10px 0px 0px $info;
+    -moz-box-shadow: -10px 10px 0px 0px $info;
+    box-shadow: -10px 10px 0px 0px $info;
 }
 
-img.shaded {
-    position: relative;
-    z-index: 2;
+img.shade-right {
+    -webkit-box-shadow: 10px 10px 0px 0px $info;
+    -moz-box-shadow: 10px 10px 0px 0px $info;
+    box-shadow: 10px 10px 0px 0px $info;
 }
 
 .customer-logo {
