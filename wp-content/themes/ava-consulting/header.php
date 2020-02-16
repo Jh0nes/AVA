@@ -39,11 +39,12 @@
 				</div>
 				<div class="col-6">
 					<nav id="site-navigation" class="navbar main-navigation navbar-expand-lg my-2 my-md-0 mr-md-3">
-						<a class="p-2 text-dark" href="#assessoria">Assessoria Financeira</a>
-						<a class="p-2 text-dark" href="#solucoes">Soluções</a>
-						<a class="p-2 text-dark" href="#expertise">Expertise</a>
-						<a class="p-2 text-dark" href="#contato">Contato</a>
+						<a class="p-2 text-dark" href="#assessoria">Home</a>
+						<a class="p-2 text-dark" href="#solucoes">Equipe</a>
+						<a class="p-2 text-dark" href="#expertise">Servico</a>
+						<a class="p-2 text-dark" href="#contato">Clientes</a>
 						<a class="p-2 text-dark" href="#contato">Blog</a>
+						<a class="p-2 text-dark" href="#contato">Contato</a>
       				</nav>
 				</div>
 			</div>
