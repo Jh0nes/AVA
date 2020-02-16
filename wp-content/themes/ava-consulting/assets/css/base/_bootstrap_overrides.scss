@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
 $primary: #2D9CDB;
 $secondary:  #F2F2F2; 
@@ -8,3 +9,6 @@ $info: rgba(45, 156, 219, 0.15);
 
 $font-family-sans-serif: 'Source Sans Pro', sans-serif;
 
+@mixin heading-font {
+    font-family: 'Nunito', sans-serif;
+}

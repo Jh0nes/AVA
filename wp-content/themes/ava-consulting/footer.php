@@ -15,26 +15,26 @@
 
 	<footer id="colophon" class="site-footer my-5">
 
-	<div class="site-branding container">
-		<div class="row">
-			<div class="col-6">
-				<?php the_custom_logo(); ?>
-			</div>
-			<div class="col-2">
-				<h6>Fale Conosco</h6>
-				<a href="mailto:contato@ava.com.br">contato@ava.com.br</a>
-			</div>
-			<div class="col-2">
-				<h6>Contato</h6>
-				<small>+55 31.3081-3864</small>
-				<small>+55 31.3081-3864</small>
-			</div>
-			<div class="col-2">
-				<h6>Contato</h6>
-				<small>Rua, Numero, Bairro, Cidade, CEP</small>
+		<div class="site-branding container">
+			<div class="row">
+				<div class="col-6">
+					<?php the_custom_logo(); ?>
+				</div>
+				<div class="col-2">
+					<h6>Fale Conosco</h6>
+					<a href="mailto:contato@ava.com.br">contato@ava.com.br</a>
+				</div>
+				<div class="col-2">
+					<h6>Contato</h6>
+					<small>+55 31.3081-3864</small>
+					<small>+55 31.3081-3864</small>
+				</div>
+				<div class="col-2">
+					<h6>Contato</h6>
+					<small>Rua, Numero, Bairro, Cidade, CEP</small>
+				</div>
 			</div>
 		</div>
-	</div>
 		<!-- <div class="site-info"> -->
 			<!-- <a href="<?php //echo esc_url( __( 'https://wordpress.org/', 'ava-consulting' ) ); ?>"> -->
 				<?php
