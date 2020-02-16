@@ -23,15 +23,15 @@ get_header();
 					<h5>Fornecemos uma sinergia exclusiva de ferramentas de gerenciamento de risco financeiro para capacitar sua tomada de decisão nesses tempos difíceis.</h5>
 					<button type="button" class="btn btn-primary mt-3">Entre em contato</button>
 				</div>
-				<div class="d-flex justify-content-center align-items-center col-lg-6 col-12 d-none d-lg-block">
+				<div class="text-center col-lg-6 col-12 d-none d-lg-block">
 					<img class="shade-left img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/business-charts-data-document.png" alt="Business Charts">
 				</div>
 			</div>
-			<div class="row bg-info py-4 px-2 my-3">
-				<div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
-					<h3 class="heading-font">Alguns de nossos parceiros</h3>
+			<div class="row bg-info py-4 px-2 my-3 text-center">
+				<div class="col-12 col-lg-6">
+					<h2 class="heading-font mt-3">Alguns de nossos parceiros</h3>
 				</div>
-				<div class="col-12 col-lg-6 d-lg-flex align-items-center justify-content-between">
+				<div class="col-12 col-lg-6 d-lg-flex">
 					<img src="wp-content/themes/ava-consulting/assets/img/raw/samarco-logo.svg" class="img-fluid customer-logo d-block mx-auto mt-4" alt="Samarco">
 					<img src="wp-content/themes/ava-consulting/assets/img/raw/vale-logo.svg" class="img-fluid customer-logo  d-block mx-auto mt-4" alt="Business Charts">
 					<img src="wp-content/themes/ava-consulting/assets/img/raw/cemig-logo.svg" class="img-fluid customer-logo  d-block mx-auto mt-4" alt="Business Charts">
@@ -66,27 +66,31 @@ get_header();
 					<h6>Agende uma reunião com o especialista para conhecer melhor sobre avaliação financeira</h6>
 					<button type="button" class="btn btn-primary mt-3">Agendar Agora</button>
 				</div>
-				<div class="col-6">
+				<div class="text-center col-6">
 					<img class="shade-right img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/contract-signing.png" alt="Business Charts">
 				</div>
 			</div>
 			
-			<div class="row my-5 py-2">
+			<div class="row my-5 py-2 text-center">
 				<div class="col-12">
 					<h3 class="heading-font">Quer apprender mais sobre gestão empresarial</h3>
 					<h6>Acesse nosso blog. lá você vai encontrar conteúdo sobre avaliação financeira.</h6>
 				</div>
 				<div class="col-3">
 					<img class="shade-left img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/blog-post-image.png" alt="Business Charts">
+					<h5 class="heading-font pt-3">Titulo da materia do Blog</h5>
 				</div>
 				<div class="col-3">
 					<img class="shade-left img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/blog-post-image.png" alt="Business Charts">
+					<h5 class="heading-font pt-3">Titulo da materia do Blog</h5>
 				</div>
 				<div class="col-3">
 					<img class="shade-left img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/blog-post-image.png" alt="Business Charts">
+					<h5 class="heading-font pt-3">Titulo da materia do Blog</h5>
 				</div>
 				<div class="col-3">
 					<img class="shade-left img-fluid" src="wp-content/themes/ava-consulting/assets/img/raw/blog-post-image.png" alt="Business Charts">
+					<h5 class="heading-font pt-3">Titulo da materia do Blog</h5>
 				</div>				
 			</div>
 			
