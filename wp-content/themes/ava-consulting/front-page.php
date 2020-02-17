@@ -38,10 +38,10 @@ get_header();
 				</div>
 			</div>
 			<div id="solucoes" class="row">
-				<div class="col-6">
+				<div class="col-12 col-lg-6">
 					<img class="img-fluid" src="wp-content/themes/ava-consulting/assets/img/men-chart.svg" alt="AVA Consulting">
 				</div>
-				<div class="col-6 pt-5 pl-5">
+				<div class="col-12 col-lg-6 pt-5 pl-5">
 					<h4 class="heading-font">Nossas Especialidades</h4>
 					<ul id="list-especialidades" class="list-group">
 						<li class="list-group-item">Laudo de Valoração <i>(Valuation)</i></li>
@@ -57,7 +57,7 @@ get_header();
 			</div>
 
 			<div id="expertise" class="row my-5 py-5 bg-dark-gradient">
-				<div class="col-6 p-5">
+				<div class="col-12 col-lg-6 p-5">
 					<h1 class="heading-font">Expertise</h1>
 					<h6>Você pode agendar uma reunião com um de nossos consultores.</h6>
 					<img class="svg-icon my-5 img-fluid customer-logo" src="wp-content/themes/ava-consulting/assets/img/calendar-icon.svg" alt="Agendar Reunião - Consultoria Financeira">
@@ -65,7 +65,7 @@ get_header();
 					<h6>Agende uma reunião com o especialista para conhecer melhor sobre avaliação financeira</h6>
 					<button type="button" class="btn btn-primary mt-3">Agendar Agora</button>
 				</div>
-				<div class="text-center col-6">
+				<div class="text-center col-lg-6 d-none d-lg-block">
 					<img class="shade-right img-fluid" src="wp-content/themes/ava-consulting/assets/img/contract-signing.png" alt="Business Charts">
 				</div>
 			</div>
@@ -75,19 +75,19 @@ get_header();
 					<h3 class="heading-font">Quer apprender mais sobre gestão empresarial</h3>
 					<h6>Acesse nosso blog. lá você vai encontrar conteúdo sobre avaliação financeira.</h6>
 				</div>
-				<div class="col-3">
+				<div class="col-12 col-md-6 col-lg-3">
 					<img class="shade-left img-fluid" src="wp-content/themes/ava-consulting/assets/img/blog-post-image.png" alt="Business Charts">
 					<h5 class="heading-font pt-3">Titulo da materia do Blog</h5>
 				</div>
-				<div class="col-3">
+				<div class="col-12 col-md-6 col-lg-3">
 					<img class="shade-left img-fluid" src="wp-content/themes/ava-consulting/assets/img/blog-post-image.png" alt="Business Charts">
 					<h5 class="heading-font pt-3">Titulo da materia do Blog</h5>
 				</div>
-				<div class="col-3">
+				<div class="col-12 col-md-6 col-lg-3">
 					<img class="shade-left img-fluid" src="wp-content/themes/ava-consulting/assets/img/blog-post-image.png" alt="Business Charts">
 					<h5 class="heading-font pt-3">Titulo da materia do Blog</h5>
 				</div>
-				<div class="col-3">
+				<div class="col-12 col-md-6 col-lg-3">
 					<img class="shade-left img-fluid" src="wp-content/themes/ava-consulting/assets/img/blog-post-image.png" alt="Business Charts">
 					<h5 class="heading-font pt-3">Titulo da materia do Blog</h5>
 				</div>				
