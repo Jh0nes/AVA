@@ -36,31 +36,23 @@
 			<div class="row pt-md-3">
 				<div class="container-fluid">
 					<nav id="site-navigation" class="navbar navbar-expand-lg my-2 my-md-0 mr-md-3 navbar-light">
-						<a class="navbar-brand" href="#"><?php the_custom_logo(); ?></a>
+						<a class="navbar-brand" href="#">
+							<?php the_custom_logo(); ?>
+						</a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
-						<div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
-							<ul class="navbar-nav mt-2 mt-lg-0">
-								<li class="nav-item active">
-									<a class="nav-link p-2 text-dark" href="#assessoria">Home</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link p-2 text-dark" href="#solucoes">Equipe</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link p-2 text-dark" href="#expertise">Servico</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link p-2 text-dark" href="#expertise">Clientes</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link p-2 text-dark" href="#expertise">Blog</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link p-2 text-dark" href="#expertise">Contato</a>
-								</li>
-							</ul>	
+						<div class="collapse navbar-collapse justify-content-end" id="navbarToggler">			
+						<?php  wp_nav_menu(
+								array(
+									'menu' 				=> 'Top Menu',
+									'theme_location'    => 'primary',
+									'container'         => false,
+									'menu_class'        => 'nav navbar-nav mt-2 mt-lg-0',
+									'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+									'walker'            => new WP_Bootstrap_Navwalker()
+								)); 
+						?>
 						</div>
       				</nav>
 				</div>
