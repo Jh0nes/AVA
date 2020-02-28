@@ -20,19 +20,9 @@
 				<div class="col-lg-6 col-12">
 					<?php the_custom_logo(); ?>
 				</div>
-				<div class="col-6 col-lg-2">
-					<h6>Fale Conosco</h6>
-					<a href="mailto:contato@ava.com.br">contato@ava.com.br</a>
-				</div>
-				<div id="contato" class="col-6 col-lg-2">
-					<h6>Contato</h6>
-					<small>+55 31.3081-3864</small>
-					<small>+55 31.3081-3864</small>
-				</div>
-				<div class="d-none d-lg-block col-lg-2">
-					<h6>Contato</h6>
-					<small>Rua, Numero, Bairro, Cidade, CEP</small>
-				</div>
+				
+				<?php dynamic_sidebar( 'sidebar-1' ); ?>
+
 			</div>
 		</div>
 		<!-- <div class="site-info"> -->
