@@ -14,19 +14,23 @@
 
 get_header();
 ?>
-
+<?php	
+	$homePage = get_post(); 
+	// var_dump($homePage->post_content);
+// die;	
+?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main container">
-			<div id="assessoria" class="row  my-5">
-				<div class="col-xl-6 col-lg-6 col-12">
-					<h2 class="heading-font">Consultoria empresarial com resultados reais</h2>
-					<h5>Fornecemos uma sinergia exclusiva de ferramentas de gerenciamento de risco financeiro para capacitar sua tomada de decisão nesses tempos difíceis.</h5>
-					<button type="button" class="btn btn-primary mt-3">Entre em contato</button>
-				</div>
-				<div class="text-center col-lg-6 col-12 d-none d-lg-block">
-					<img class="shade-left img-fluid" src="wp-content/themes/ava-consulting/assets/img/business-charts-data-document.png" alt="Business Charts">
-				</div>
-			</div>
+			<?php
+				if ( have_posts() ) {
+					while ( have_posts() ) {
+						the_post(); 
+						the_content(); 
+					}
+				}
+			?>
+			
+			<!-- This BLock becomes a new page -->
 			<div class="d-none row bg-info py-4 px-2 my-3 text-center">
 				<div class="col-12 col-lg-6">
 					<h2 class="heading-font mt-3">Alguns de nossos parceiros</h3>
@@ -37,7 +41,8 @@ get_header();
 					<img src="wp-content/themes/ava-consulting/assets/img/cemig-logo.svg" class="img-fluid customer-logo  d-block mx-auto mt-4" alt="Business Charts">
 				</div>
 			</div>
-			<div id="solucoes" class="row">
+
+			<div id="solucoes" class="row d-none">
 				<div class="col-12 col-lg-6">
 					<img class="img-fluid" src="wp-content/themes/ava-consulting/assets/img/men-chart.svg" alt="AVA Consulting">
 				</div>
@@ -56,7 +61,7 @@ get_header();
 				</div>
 			</div>
 
-			<div id="expertise" class="row my-5 py-5 bg-dark-gradient">
+			<div id="expertise" class="d-none row my-5 py-5 bg-dark-gradient">
 				<div class="col-12 col-lg-6 p-5">
 					<h1 class="heading-font">Expertise</h1>
 					<h6>Você pode agendar uma reunião com um de nossos consultores.</h6>
@@ -70,7 +75,7 @@ get_header();
 				</div>
 			</div>
 			
-			<div class="row my-5 py-2 text-center">
+			<div class="row my-5 py-2 text-center d-none">
 				<div class="col-12">
 					<h3 class="heading-font">Quer apprender mais sobre gestão empresarial</h3>
 					<h6>Acesse nosso blog. lá você vai encontrar conteúdo sobre avaliação financeira.</h6>

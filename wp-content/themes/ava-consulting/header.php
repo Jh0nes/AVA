@@ -25,7 +25,7 @@
 	<a class="sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'ava-consulting' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="language-bar container-fluid">
+		<div class="language-bar container-fluid d-none">
 			<div class="row justify-content-end bg-secondary">
 				<div class="col-2">
 					Idioma: Portugues

@@ -30,17 +30,23 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 // AVA theme Styling
 
-img.shade-left {
-    -webkit-box-shadow: -10px 10px 0px 0px $info;
-    -moz-box-shadow: -10px 10px 0px 0px $info;
-    box-shadow: -10px 10px 0px 0px $info;
+.shade-left {
+    & > img {
+        -webkit-box-shadow: -10px 10px 0px 0px $info;
+        -moz-box-shadow: -10px 10px 0px 0px $info;
+        box-shadow: -10px 10px 0px 0px $info;
+    }
 }
 
-img.shade-right {
-    -webkit-box-shadow: 10px 10px 0px 0px $info;
-    -moz-box-shadow: 10px 10px 0px 0px $info;
-    box-shadow: 10px 10px 0px 0px $info;
+.shade-right {
+    & > img {
+        -webkit-box-shadow: 10px 10px 0px 0px $info;
+        -moz-box-shadow: 10px 10px 0px 0px $info;
+        box-shadow: 10px 10px 0px 0px $info;
+    }
 }
+
+
 
 .customer-logo {
     width: 25%;
