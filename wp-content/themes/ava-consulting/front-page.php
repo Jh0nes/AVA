@@ -14,11 +14,6 @@
 
 get_header();
 ?>
-<?php	
-	$homePage = get_post(); 
-	// var_dump($homePage->post_content);
-// die;	
-?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main container">
 			<?php
